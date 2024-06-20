@@ -59,8 +59,8 @@ function App() {
         <Player name={currentSong.name} artist={currentSong.artist} cover={currentSong.cover} id={currentSong.id} />
         <Controls 
           audioRef={audioRef}
-          isSongPlaying={isSongPlaying} 
-          setIsSongPlaying={setIsSongPlaying} 
+          isSongPlaying={isSongPlaying}
+          setIsSongPlaying={setIsSongPlaying}
           songs={songs}
           setSongs={setSongs}
           currentSong={currentSong}
