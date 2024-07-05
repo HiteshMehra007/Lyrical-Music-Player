@@ -6,7 +6,7 @@ const Footer = () => {
     const date = new Date();
     return (
             <div className="app-footer flex">
-                <p>©️ Hitesh Mehra {date.getFullYear()}</p>
+                <p>©️ Lyrical - Music Player {date.getFullYear()}</p>
             </div>
     );
 }
